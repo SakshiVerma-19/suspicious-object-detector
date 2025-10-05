@@ -15,7 +15,7 @@ st.set_page_config(
 # --- MODEL LOADING ---
 @st.cache_resource
 def load_model():
-    model = YOLO('runs/detect/train/weights/best.pt')
+    model = YOLO('runs/detect/train3/weights/best.pt')
     return model
 
 model = load_model()
