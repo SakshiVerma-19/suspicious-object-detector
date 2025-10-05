@@ -64,7 +64,7 @@ class VideoTransformer(VideoTransformerBase):
 # --- PAGE CONTENT ---
 
 if selected == "Home":
-    st.title("🛡️ Sharp Object Detection System")
+    st.title("Sharp Object Detection System")
     st.markdown("---")
     st.subheader("Welcome to the Real-Time Object Detection Application")
     st.markdown("""
@@ -75,7 +75,7 @@ if selected == "Home":
         2.  Click the **"START"** button and grant camera permissions.
         3.  The application will stream your webcam feed and highlight any detected objects.
     """)
-    st.image("interface_preview.png", caption="System Interface Preview")
+    st.image("https://miro.medium.com/0*NKSu3VocwAoOPWyX.jpg", caption="System Interface Preview")
 
 if selected == "Live Detection":
     st.header("🔴 Live Webcam Feed")
