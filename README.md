@@ -1,4 +1,4 @@
-#Suspicious-Object-detector
+## Suspicious-Object-detector
 Real-Time Suspicious Object Detection
 A Streamlit web application that uses a custom-trained YOLOv8 model to detect sharp objects like knives and scissors in real-time from a webcam feed.
 Be sure to replace interface_preview.png with a screenshot of your own running application!
