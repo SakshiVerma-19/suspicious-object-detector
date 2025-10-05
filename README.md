@@ -28,18 +28,17 @@ Make sure you have Python 3.9+ and pip installed on your system.
 
 ### Installation
 Clone the repository
+git clone https://github.com/SakshiVerma-19/suspicious-object-detector.git
 
-git clone https://github.com/your_username/your_repository_name.git
 Navigate to the project directory
+cd Suspicious-object-detetctor
 
-cd your_repository_name
 Create and activate a virtual environment
-
 On Windows:
 python -m venv venv
 venv\Scripts\activate
-On macOS/Linux:
 
+On macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
 Install the required packages
