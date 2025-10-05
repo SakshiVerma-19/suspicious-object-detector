@@ -1,0 +1,13 @@
+train: ../dataset/train/images 
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 3
+names: ['gun', 'knife', 'person_with_mask']
+
+roboflow:
+  workspace: weapon-rcjrw
+  project: weapon-detection-pgqnr
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/weapon-rcjrw/weapon-detection-pgqnr/dataset/8
